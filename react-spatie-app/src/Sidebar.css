@@ -1,0 +1,50 @@
+/* Sidebar.css */
+.sidebar {
+    width: 300px;
+    height: 100vh;
+    background-color: #333;
+    color: white;
+    position: fixed;
+    top: 0;
+    left: -250px;
+    transition: all 0.3s ease;
+    padding: 20px;
+    z-index: 100;
+  }
+  
+  .sidebar.open {
+    left: 0;
+  }
+  
+  .sidebar nav ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .sidebar nav ul li {
+    margin: 20px 0;
+  }
+  
+  .sidebar nav ul li a {
+    color: white;
+    text-decoration: none;
+  }
+  
+  /* Toggle Button */
+  .toggle-btn {
+    background-color: #7f7a78;
+    border: none;
+    color: white;
+    padding: 10px;
+    cursor: pointer;
+    font-size: 12px;
+    position: fixed;
+    top: 20px;
+    left: 10px;
+    z-index: 110;
+  }
+  
+  .toggle-btn:focus {
+    outline: none;
+  }
+  
